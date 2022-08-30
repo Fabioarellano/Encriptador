@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>a
+      <img src="imagenes/Muñeco.png" id="muneco">
+    </header>
+    <div>  
+      <hr>
+    <div class="titulo">Encriptador/Desencriptador</div>
+    <main>
+    <section class="encriptar">
+        <input
+          type="text"
+          id="cadenaAEncriptar"
+          class="input-Encriptar"
+          required
+          placeholder="Ingrese el texto aqui"
+        />
+        
+        <textarea
+          name="cadenaDes"
+          id="cadenaDesEncriptar"
+          cols="30"
+          rows="3"
+        ></textarea>
+        <button id="miBotonCopiar">Copiar</button>
+      </section>
+
+      <section class="desencriptar">
+       <p>🛈 Solo letras minusculas y sin acentos</p>
+        <div class="styleBoton">
+          <button id="miBotonEncriptar">Encriptar</button>
+          <button id="miBotonDesencriptar">Desencriptar</button>
+        </div>
+       <script src="encripta.js"></script>
+      </section>
+    </main>
+    <footer>
+      <p>Desarrollado por: Fabio Arellano - 2022</p>
+    </footer>
+  </body>
+</html>
