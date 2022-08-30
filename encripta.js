@@ -20,7 +20,7 @@ function encriptarTexto() {
     var textoAEncriptar = document.getElementById("cadenaAEncriptar").value;
 
     //validar minuscula y sin aceptos
-    if (/[A-Z]/.test(textoAEncriptar) || /[ÑñÁáÉéÍíÓóÚú]/.test(textoAEncriptar)){
+    if (/[A-Z]/.test(textoAEncriptar) || /[ÁáÉéÍíÓóÚú]/.test(textoAEncriptar)){
         alert("Solo letras minusculas y sin acentos");
 
         let copyText = document.getElementById("cadenaAEncriptar");
